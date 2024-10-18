@@ -1,11 +1,11 @@
 import './App.css';
 import { Component } from 'react';
-import StyleSheet from './Components/StyleSheet';
+import PortalDemo from './Components/PortalDemo';
 class App extends Component{
   render(){
     return (
       <div className="App">
-        <StyleSheet />
+        <PortalDemo/>
       </div>
     );
   } 
