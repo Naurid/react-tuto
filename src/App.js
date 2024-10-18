@@ -1,13 +1,11 @@
 import './App.css';
 import { Component } from 'react';
-import Greet from './Components/Greet';
-import Welcome from './Components/Welcome';
+import StyleSheet from './Components/StyleSheet';
 class App extends Component{
   render(){
     return (
       <div className="App">
-        <Greet />
-        <Welcome />
+        <StyleSheet />
       </div>
     );
   } 
