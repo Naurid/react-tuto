@@ -1,11 +1,13 @@
 import './App.css';
 import { Component } from 'react';
-import PortalDemo from './Components/PortalDemo';
+import HoverCounter from './Components/HoverCounter';
+import ClickCounter from './Components/ClickCounter';
 class App extends Component{
   render(){
     return (
       <div className="App">
-        <PortalDemo/>
+        <HoverCounter/>
+        <ClickCounter/>
       </div>
     );
   } 
