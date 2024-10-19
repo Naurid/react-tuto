@@ -1,13 +1,17 @@
 import './App.css';
 import { Component } from 'react';
-import HoverCounter from './Components/HoverCounter';
-import ClickCounter from './Components/ClickCounter';
+import ComponentC from './Components/ComponentC';
+import { UserProvider } from './Components/userContext';
+import { LastNameProvider } from './Components/lastNameContext';
 class App extends Component{
   render(){
     return (
       <div className="App">
-        <HoverCounter/>
-        <ClickCounter/>
+        <UserProvider value="Gabor">
+        <LastNameProvider value="Vilics">
+          <ComponentC />
+        </LastNameProvider>
+        </UserProvider>
       </div>
     );
   } 
